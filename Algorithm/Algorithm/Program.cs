@@ -6,7 +6,8 @@ namespace Algorithm
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            NoPrefixSet ss = new NoPrefixSet();
+            ss.ReadInput();
         }
     }
 }

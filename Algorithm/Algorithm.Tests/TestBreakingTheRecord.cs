@@ -4,10 +4,10 @@ using Xunit;
 namespace Algorithm.Tests
 {
     
-    public class TestBreakingTheRecord
+    public class BreakingTheRecordTest
     {
         private BreakingTheRecord BreakingTheRecord { get; }
-        public TestBreakingTheRecord()
+        public BreakingTheRecordTest()
         {
             BreakingTheRecord = new BreakingTheRecord();
         }

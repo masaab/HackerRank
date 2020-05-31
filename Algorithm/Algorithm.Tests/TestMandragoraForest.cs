@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using Xunit;
 
 namespace Algorithm.Tests
 {
     public class TestMandragoraForest
     {
-        [FactAttribute]
+        [Fact]
         public void TestMethod()
         {
             MandragoraForest v = new MandragoraForest();
@@ -17,7 +16,7 @@ namespace Algorithm.Tests
         Assert.Equal(16, result);
         }
 
-        [FactAttribute]
+        [Fact]
         public void TestMethod1()
         {
             MandragoraForest v = new MandragoraForest();
@@ -25,7 +24,7 @@ namespace Algorithm.Tests
             Assert.Equal(10, result);
         }
 
-        [FactAttribute]
+        [Fact]
         public void TestMethod2()
         {
             MandragoraForest v = new MandragoraForest();
@@ -33,7 +32,7 @@ namespace Algorithm.Tests
             Assert.Equal(315, result);
         }
 
-        [FactAttribute]
+        [Fact]
         public void TestMethod3()
         {
             MandragoraForest v = new MandragoraForest();
@@ -41,7 +40,7 @@ namespace Algorithm.Tests
             Assert.Equal(90, result);
         }
 
-        [FactAttribute]
+        [Fact]
         public void TestMethod5()
         {
             MandragoraForest v = new MandragoraForest();
@@ -49,7 +48,7 @@ namespace Algorithm.Tests
             Assert.Equal(36, result);
         }
 
-        [FactAttribute]
+        [Fact]
         public void TestMethod6()
         {
             MandragoraForest v = new MandragoraForest();
@@ -57,7 +56,7 @@ namespace Algorithm.Tests
             Assert.Equal(90, result);
         }
 
-        [FactAttribute]
+        [Fact]
         public void TestMethod7()
         {
             MandragoraForest v = new MandragoraForest();
@@ -65,7 +64,7 @@ namespace Algorithm.Tests
             Assert.Equal(260, result);
         }
 
-        [FactAttribute]
+        [Fact]
         public void TestMethod8()
         {
             MandragoraForest v = new MandragoraForest();
@@ -73,7 +72,7 @@ namespace Algorithm.Tests
             Assert.Equal(472813835, result);
         }
 
-        [FactAttribute]
+        [Fact]
         public void TestMethod9()
         {
             MandragoraForest v = new MandragoraForest();
@@ -83,7 +82,7 @@ namespace Algorithm.Tests
 
 
 
-        [FactAttribute]
+        [Fact]
         public void TestMethod11()
         {
             MandragoraForest v = new MandragoraForest();
@@ -91,7 +90,7 @@ namespace Algorithm.Tests
             Assert.Equal(15, result);
         }
 
-        [FactAttribute]
+        [Fact]
         public void TestMethod12()
         {
             MandragoraForest v = new MandragoraForest();
